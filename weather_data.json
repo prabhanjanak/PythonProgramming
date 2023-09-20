@@ -1,0 +1,4 @@
+{
+    "weather": [{"main": "Cloudy", "description": "Thunderstorms"}],
+    "main": {"temp": 15.45, "pressure": 1017, "humidity": 64}
+}

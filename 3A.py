@@ -1,0 +1,10 @@
+sentence = input("Enter the sentence:")
+word_count = len(sentence.split())
+digit_count = sum(char.isdigit() for char in sentence)
+uppercase_count = sum(char.isupper() for char in sentence)
+lowercase_count = sum(char.islower() for char in sentence)
+
+print("Number of Words:", word_count)
+print("Number of Digits:", digit_count)
+print("Number of Uppercase Letters:", uppercase_count)
+print("Number of Lowercase Letters:", lowercase_count)
